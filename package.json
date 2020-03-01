@@ -5,7 +5,8 @@
   "main": "index2.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development --config webpack.dev.js",
-    "build": "webpack --mode production --config webpack.prod.js"
+    "build": "webpack --mode production --config webpack.prod.js",
+    "api": "node src/api/api"
   },
   "author": "",
   "license": "ISC",
@@ -26,10 +27,13 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "sass-loader": "^8.0.2"
   }
 }

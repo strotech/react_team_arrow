@@ -6,6 +6,7 @@ module.exports = merge(common, {
 
     devServer:{
         index:"./appmain.html",
+        historyApiFallback: true,
         port: 9000
     },
     output: {

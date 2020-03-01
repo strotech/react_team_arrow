@@ -1,3 +1,6 @@
-import Form from "./js/components/FormComponent";
-import  './css/custom.css'
-import Image from "./js/components/ImageComponent";
+import React from "react";
+import ReactDOM from "react-dom";
+
+import MainApp from "./js/components/MainApp"
+
+ReactDOM.render(<MainApp />,document.getElementById("root"));
