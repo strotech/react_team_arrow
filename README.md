@@ -1,4 +1,4 @@
-Technologies and frameworks used:
+Technologies and frameworks used :
 1. Webpack
 2. ReactJS
 3. Express
